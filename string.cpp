@@ -6,12 +6,12 @@ int main(void) {
 	std::string string;
 
 	std::cin >> integer;
-	std::cin.ignore(32767, '\n'); //½º¸£¸²¿¡¼­ °³Çà ¹®ÀÚ »èÁ¦
+	std::cin.ignore(32767, '\n'); //ìŠ¤ë¦¼ì—ì„œ ê°œí–‰ ë¬¸ì ì‚­ì œ
 	
-	std::getline(std::cin, string); //¹®ÀÚ¿­ ¹Ş´Â ÇÔ¼ö, Ã¹¹øÂ° Ç×Àº ¹«Á¶°Ç std::cin
+	std::getline(std::cin, string); //ë¬¸ìì—´ ë°›ëŠ” í•¨ìˆ˜, ì²«ë²ˆì§¸ í•­ì€ ë¬´ì¡°ê±´ std::cin
 	
 	std::cout << integer << std::endl << string << std::endl;
-	std::cout << string.length(); //¹®ÀÚ¿­ÀÇ ±æÀÌ¸¦ ¹İÈ¯ÇÏ´Â ÇÔ¼ö
+	std::cout << string.length(); //ë¬¸ìì—´ì˜ ê¸¸ì´ë¥¼ ë°˜í™˜í•˜ëŠ” í•¨ìˆ˜
 
 	return 0; 
 }
