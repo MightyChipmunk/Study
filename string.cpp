@@ -6,7 +6,7 @@ int main(void) {
 	std::string string;
 
 	std::cin >> integer;
-	std::cin.ignore(32767, '\n'); //스림에서 개행 문자 삭제
+	std::cin.ignore(32767, '\n'); //스트림에서 개행 문자 삭제
 	
 	std::getline(std::cin, string); //문자열 받는 함수, 첫번째 항은 무조건 std::cin
 	
